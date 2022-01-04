@@ -1,0 +1,252 @@
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	background-color: #222;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: opacity .2s;
+}
+
+a:hover {
+	opacity: .8;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.cv-frame {
+	width: 21cm;
+	height: 29.7cm;
+	margin: 0 auto;
+}
+
+.cv-header {
+	display: flex;
+	height: 25%;
+}
+
+.picture {
+	width: 40%;
+	background-color: #fff;
+}
+
+.picture img {
+	width: 270px;
+	height: auto;
+	filter: grayscale(100%);
+	border: 8px #f6f6f6 solid;
+	display: block;
+	margin: 0 auto;
+	border-radius: 2px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	transform: translateY(2em);
+}
+
+.introduction {
+	padding: .6em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;;
+	justify-content: center;
+	width: 60%;
+	color: #f6f6f6;
+	background-color: #161616;
+}
+
+.introduction .description {
+	font-size: .95em;
+	display: block;
+	padding: .1em 0;
+	line-height: 2em;
+}
+
+.introduction > div {
+	width: 80%;
+}
+
+.introduction h1, h2 {
+	text-transform: uppercase;
+}
+
+.introduction h1 {
+	letter-spacing: 2px;
+	line-height: 1.1em;
+	font-size: 2.2em;
+	margin: 0.2em 0;
+}
+
+.introduction h2 {
+	font-size: 1.1em;
+	margin: 0 0 1em 0;
+}
+
+.divider {
+	border: none;
+	border-bottom: 2px #f6f6f6 solid;
+	opaciy: .8;
+}
+
+.introduction small {
+	margin: 1em 0 0 0;
+	font-size: .8em;
+	opacity: .8;
+}
+
+.cv-body {
+	display: flex;
+	height: 75%;
+}
+
+.cv-body section:nth-child(1) {
+	width: 40%;
+	background-color: #161616;
+}
+
+.cv-body section:nth-child(2) {
+	width: 60%;
+	background-color: #fff;
+}
+
+/* LEFTSIDE */
+
+.cv-leftside {
+	display: flex;
+	flex-direction: column;
+	padding: 2.5em 2em 1em 2em;
+	gap: 1em;
+	color: #f6f6f6;
+}
+
+.article-heading {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	margin: 0;
+}
+
+.contact-items {
+	padding: .4em 0;
+}
+
+.contact-item {
+	margin: .8em 0;
+	display: flex;
+	font-size: .95em;
+	align-items: center;
+	color: #f6f6f6;
+	opacity: .8;
+	gap: 10px;
+}
+
+.contact-item p {
+	margin: 0;
+}
+
+.contact-item img {
+	width: 10%;
+	fill: #fff;
+}
+
+.education-items {
+	padding: .4em 0;
+	display: flex;
+	flex-direction: column;
+	gap: .5em;
+}
+
+.duration {
+	font-size: .95em;
+	opacity: .7;
+}
+
+h4, h5 {
+	margin: .3em 0;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+h5 {
+	font-size: 1em;
+	opacity: .8;
+}
+
+.education-highlights {
+	padding-left: 1.5em;
+}
+
+.education-highlights > li {
+	margin: .3em 0;
+	font-size: .9em;
+}
+
+.cv-rightside {
+	padding: 2.5em 2em 1em 2em;
+	color: #545454;
+	display: flex;
+	flex-direction: column;
+}
+
+.experience-items {
+	padding: 0em 0 .7em 0;
+}
+
+.experience-item {
+	margin: 1.2em 0;
+}
+
+.techtags {
+	display: flex;
+}
+
+.techtags > span {
+	margin-right: 5px;
+	padding: 5px;
+	font-size: .85em;
+	border-radius: 2px;
+	text-transform: uppercase;
+	background-color: #545454;
+	color: #f6f6f6;
+}
+
+.cs-skills-items > div > * {
+	margin: .3em 0;
+}
+
+.cs-skills-item {
+	display: flex;
+	align-items: center;
+}
+
+.cs-skills-items {
+	display: flex;
+	padding: .5em 0;
+	align-items: center;
+}
+
+.cs-skills-items > div {
+	width: 50%;
+}
+
+.cs-skills-item p {
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.cs-skills-item > * {
+	margin-right: 1.5em;
+}
+
+.cs-skills-item img {
+	width: 16%;	
+	height: auto;
+	max-height: 40px;
+}
